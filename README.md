@@ -1,2 +1,2 @@
-# cis152.
+# cis152
 CIS-152-501 Class
