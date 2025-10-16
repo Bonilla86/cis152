@@ -58,7 +58,6 @@ main{
 }
 aside{
     flex: 2;
-
 }
 @media only screen and (max-width: 1024px) {
 body { margin: 0; padding: 0; } 
@@ -80,7 +79,5 @@ font-size: 1.2em; 	}
 @media only screen and (max-width: 768px) {   
 nav{ order: 1; }
 nav ul {flex-wrap: wrap}
-
-    
 }
 header, main, aside, nav, footer, figure, figcaption { display: block; }
