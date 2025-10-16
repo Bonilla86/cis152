@@ -2,24 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pacific Trails Resort</title>
+    <title>Pacific Trails Resort : Activities</title>
     <link rel="stylesheet" href="pacific.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <body>
     <div id="wrapper">
       <header>
         <h1><a href="index.html">Pacific Trails Resort</a></h1>
       </header>
-      <!-- nav>ul>li*4>a -->
+      <!--nav>ul*4>a -->
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -28,68 +21,78 @@
           <li><a href="reservations.html">Reservations</a></li>
         </ul>
       </nav>
+      <div id="trailhero"></div>
+      <main>
+ <h2>Activities at Pacific Trails</h2>
 
-      <div id="homehero"></div>
-      <main class="main-content">
-        <div class="content-row">
-          <div class="text content">
-            <h2>Enjoy Nature in Luxury</h2>
+        <div class="card-row">
+          <section>
+            <h3>Hiking</h3>
             <p>
-              <span class="resort"> Pacific Trails Resort </span> offers a
-              special lodging experience on the California North Coast. Relax in
-              serenity with panoramic views of the Pacific Ocean. Private yurts
-              with decks overlooking the ocean. Activities lodge with fireplace
-              and gift shop. Nightly fine dining at the Overlook Cafe. Heated
-              outdoor pool and whirlpool. Along with Guided hiking tours of the
-              redwoods
+              Pacific Trails Resort has 5 miles of hiking trails and is adjacent
+              to a state park. Got it alone or join one of our guided hikes.
             </p>
-            <!-- ul>li*4 -->
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li"><i class="fa-solid fa-utensils"></i></span
-                >Relax in your lodge while enjoying complimentary appetizers and
-                beverages
-              </li>
-              <li>
-                <span class="fa-li"><i class="fa-solid fa-water"></i></span
-                >Savor nightly fine dining with an ocean view
-              </li>
-              <li>
-                <span class="fa-li"
-                  ><i class="fa-solid fa-person-swimming"></i></span
-                >Unwind in the heated outdoor pool whirlpool
-              </li>
-              <li>
-                <span class="fa-li"
-                  ><i class="fa-solid fa-map-location"></i></span
-                >Explore the coast on your own or join our guided tours
-              </li>
-            </ul>
-          </div>
-
-          <video
-            controls poster="video/pacifictrailsresort.jpg" width="320" height="420">
-            <source src="video/PacificTrailsResort.mp4" type="video/mp4" />
-            <source src="video/PacificTrailsResort.ogv" type="video/ogg" />
-            Sorry, your browser does not support embeded videos.
-          
-          </video>
-
+          </section>
+          <section>
+            <h3>Kayking</h3>
+            <p>Ocean kayaks are availble for guest use.</p>
+          </section>
+          <section>
+            <h3>Bird Watching</h3>
+            <p>
+              While anytimes is a good time for bird watching at Pacific Tails,
+              we offere guided bird watching trips at sunrise and several times
+              a week.
+            </p>
+          </section>
         </div>
-        <address>
-          <span class="resort">Pacific Trails Resort</span> <br />
-          12010 Pcaific Trails Road <br />
-          Zephyr, CA 95555<br />
-          <a href="tel:888-555-1212">888-555-1212</a> <br />
-        </address>
-      </main>
 
-      <!-- footer>p*2 -->
+<section class="gallery">
+  <figure class="gallery">
+    <img src="gallery/photo1.jpg" alt="San Francisco Bridge">
+    <figcaption> San Francisco Bridge </figcaption>
+  </figure>
+
+  <figure class="gallery">
+    <img src="gallery/photo2.jpg" alt="Rocky Coast Line">
+    <figcaption> Rocky Coast Line </figcaption>
+  </figure>
+
+  <figure class="gallery">
+    <img src="gallery/photo3.jpg" alt="Sunset on the Coast">
+    <figcaption> Sunset on the Coast </figcaption>
+  </figure>
+
+  <figure class="gallery">
+    <img src="gallery/photo4.jpg" alt="Waterfall near Big Sur">
+    <figcaption> Waterfall near Big Sur </figcaption>
+  </figure>
+
+ <figure class="gallery">
+    <img src="gallery/photo5.jpg" alt="Big Sur Coastline">
+    <figcaption> Big Sur Coastline </figcaption>
+  </figure>
+
+  <figure class="gallery">
+    <img src="gallery/photo6.jpg" alt="Sunset on the Coast">
+    <figcaption> Sunset on the Coast </figcaption>
+  </figure>
+
+</section>
+
+      <address>
+            Pacific Trails Resort <br />
+            12010 Pcaific Trails Road <br />
+            Zephyr, CA 95555<br />
+            <a href="tel:888-555-1212">888-555-1212</a> <br />
+          </address>
+      </main>
+      <!--footer>p*2-->
       <footer>
         <p>Copyright &copy; 2025 Pacific Trails Resort</p>
         <p>Crystal Bonilla</p>
       </footer>
     </div>
-    <!-- end of wrapper -->
+    <!-- this closes my wrapper div -->
   </body>
 </html>
