@@ -248,21 +248,7 @@ input[type="submit"]:focus {
   margin-bottom: 2em; /* mb:2em */
 }
 
-/* Video styling */
-.content-row video {
-  flex: 0 0 320px; /* f:0 0 320px */
-  margin: 2em; /* m:2em */
-  max-width: 100%; /* maxw:100% */
-  border-radius: 0.5em; /* br:0.5em */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* bs:0 4px 10px rgba(0,0,0,0.5) */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* trs:transform 0.3s ease, box-shadow 0.3s ease */
-}
-
-/* Hover effect for videos */
-.content-row video:hover {
-  transform: scale(1.05); /* Slightly enlarge the video */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Deeper shadow */
-}
+ 
 
 /* Text content styling */
 .text-content {
@@ -270,59 +256,7 @@ input[type="submit"]:focus {
   min-width: 250px; /* minw:250px */
 }
 
-/* Gallery Grid Layout */
-.gallery {
-  display: grid; /* d:grid */
-  gap: 1em; /* g:1em */
-  grid-template-columns: repeat(1, 1fr); /* gt:columns:repeat(1,1fr) */
-  margin: 2em 0; /* m:2em 0 */
-}
-
-/* Figcaption overlay */
-.gallery-image figcaption {
-  position: absolute; /* pos:absolute */
-  bottom: 0; /* b:0 */
-  left: 0; /* l:0 */
-  width: 100%; /* w:100% */
-  background: rgba(0, 0, 0, 0.6); /* bg:rgba(0,0,0,0.6) */
-  color: #fff; /* c:#fff */
-  padding: 0.5em; /* p:0.5em */
-  font-size: 0.9rem; /* fz:0.9rem */
-  text-align: center; /* ta:center */
-  opacity: 0; /* o:0 */
-  transition: opacity 0.3s ease, transform 0.3s ease; /* trs:opacity 0.3s ease, transform 0.3s ease */
-  transform: translateY(20%); /* trs:translateY(20%) */
-}
-
-/* Hover effect for gallery images */
-.gallery-image:hover figcaption {
-  opacity: 1; /* o:1 */
-  transform: translateY(0); /* trs:translateY(0) */
-}
-
-@media (min-width: 900px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr); /* gt:columns:repeat(2,1fr) */
-  }
-}
-
-@media (min-width: 1200px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr); /* gt:columns:repeat(2,1fr) */
-  }
-}
-
-/* Responsive Design for video */
-@media (max-width: 700px) {
-  .content-row {
-    flex-direction: column; /* fd:column */
-  }
-  .content-row video {
-    margin: 1em auto; /* m:1em auto */
-    width: 100%; /* w:100% */
-    max-width: 100%; /* maxw:100% */
-  }
-}
+ 
 
 @media (max-width: 32.5rem) {
   body {
